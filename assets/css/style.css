@@ -1,0 +1,142 @@
+body {
+  background-color: #e8ebe4;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+  text-align: center;
+  font-size: 1em;
+  font-stretch: expanded;
+  height: 8em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.357);
+}
+
+menu {
+  background-color: rgb(255, 255, 255);
+  width: 20em;
+  min-height: 100vh;
+  color: EF7F6D;
+}
+
+menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul li {
+  list-style: none;
+}
+
+.estadoUsuario {
+  display: flex;
+  flex-direction: space-between;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #bec1bb;
+}
+
+.estadoUsuario .datosUsuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.estadoUsuario .datosUsuario img {
+  width: 22%;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid #44474935;
+}
+
+.estadoUsuario .datosUsuario div p {
+  color: #bec1bb;
+}
+
+.estadoUsuario .menuUsuario {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.estadoUsuario .menuUsuario i {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #828485;
+}
+
+.nuevoChat {
+  display: flex;
+  border: 1px solid #bec1bb;
+}
+
+.nuevoChat p {
+  display: flex;
+  justify-content: center;
+  padding: 15px 55px 15px;
+  margin: 50px 60px;
+  border-radius: 2px;
+  border: 1px solid #bec1bb;
+  background-color: #a491b2;
+  color: white;
+  font-size: 16px;
+}
+
+.usuarios {
+  display: flex;
+  flex-direction: space-between;
+  gap: 15px;
+  padding: 15px 30px 15px;
+  border: 1px solid #bec1bb;
+}
+
+.usuarios img {
+  width: 17%;
+  border-radius: 50%;
+  border: 2px solid #44474935;
+}
+
+.usuarios h4 {
+  margin-top: 5px;
+}
+
+.usuarios p {
+  font-size: 14px;
+  margin-top: 3px;
+  color: #828485;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contenedor img {
+  width: 40%;
+}
+
+.contenedor h1 {
+  margin: 20px;
+}
+
+.contenedor p {
+  width: 420px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444749;
+}
+
+.padre {
+  display: flex;
+}
